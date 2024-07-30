@@ -15,7 +15,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 mb-4">
               DataBrix Soft delivers custom software solutions, data-driven marketing, and cloud-based services.
             </p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition font-bold">
               Read More
             </button>
           </div>
@@ -26,7 +26,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 mb-4">
               DataBrix Soft specializes in leveraging cutting-edge web technology to generate high returns for organizations across sectors.
             </p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition font-bold">
               Read More
             </button>
           </div>
@@ -37,7 +37,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 mb-4">
               DataBrix Soft is a premium web design, online marketing, and IT Solution Company based in Navi Mumbai, serving high-value clients.
             </p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition font-bold">
               Read More
             </button>
           </div>
@@ -48,7 +48,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 mb-4">
               DataBrix Soft has consistently excelled in delivering high-quality customized web designs and services.
             </p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition font-bold">
               Read More
             </button>
           </div>
