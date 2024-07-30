@@ -2,13 +2,13 @@ import React from "react";
 
 const Services: React.FC = () => {
   return (
-    <div className="bg-white-100 min-h-screen py-8 px-4 sm:px-6 lg:px-8 mt-10">
-      <div className="container mx-auto ">
+    <div className="bg-white min-h-screen py-8 px-4 sm:px-6 lg:px-8 mt-10">
+      <div className="container mx-auto">
         <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">
           Our Services
         </h1>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 ">
-          <div className="bg-white p-6 rounded-lg shadow-lg bg-pink-200">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="bg-pink-200 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
               Digital Marketing
             </h2>
@@ -19,7 +19,7 @@ const Services: React.FC = () => {
               Read More
             </button>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg bg-blue-100">
+          <div className="bg-blue-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
               ISO & Trademark
             </h2>
@@ -30,7 +30,7 @@ const Services: React.FC = () => {
               Read More
             </button>
           </div>
-          <div className="bg-green-100 p-6 rounded-lg shadow-lg">
+          <div className="bg-green-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
               Web Development
             </h2>
@@ -41,7 +41,7 @@ const Services: React.FC = () => {
               Read More
             </button>
           </div>
-          <div className="bg-yellow-100 p-6 rounded-lg shadow-lg">
+          <div className="bg-yellow-100 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
               IT Solutions
             </h2>
